@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    background-color: #252525;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator {
+    padding: 16px;
+    border-radius: 10px;
+    background-color: #07689F;
+    display: grid;
+    grid-template-columns: repeat(4,68px);
+}
+
+h1{
+    background-color: #07689F;
+    color: #EAEAEA;
+    grid-column: span 4;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+input {
+    height: 60px;
+    width: 265px;
+    grid-column: span 4;
+    background-color: #EAEAEA;
+    border: none;
+    border-radius: 5px;
+    color: #252525;
+    text-align: end;
+    font-size: 35px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+button {
+    background-color: #FF7E67;
+    height: 50px;
+    width: 60px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 16px;
+    color: #EAEAEA;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: #A2D5F2;
+    color: #252525;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.angka {
+    background-color: #EAEAEA;
+    color: #252525;
+    font-weight: 400;
+}
+
+.hasil {
+    border-radius: 5px;
+    background-color: #FF7E67;
+    grid-row: span 2;
+    height: 110px;
+}
